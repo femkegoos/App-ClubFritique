@@ -8,8 +8,6 @@
 
 body,
 html {
-
-text-align: center;
 width:100%;
 max-width: 500px;
   overflow-x: hidden;
@@ -41,6 +39,19 @@ header {
   height: 200px; 
   background-repeat: no-repeat; 
    background-size: cover;
+   text-align: center;
+   padding-top: 20px;
+}
+
+.textHero{
+  text-align: left !important;
+  padding:20px;
+}
+
+
+.container img{
+  width:20%;
+
 }
 a {
   font-family: "brother-1816", sans-serif;
