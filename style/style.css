@@ -166,17 +166,17 @@ h3 {
 
 
 footer {
-  background-color: #F5F1DC;
-  color: #780116 !important;
-  text-align: center;
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 5px !important;
-  margin-top: 40px;
+  text-align: center !important;
+  background-color: #780116;
+  color: #F5F1DC !important;
+  display: flex;
+  gap:80px;
+ align-items: center;
+ margin:0pc;
+ padding:20px;
+ padding-left:50px !important;
 
-  align-items: center;
-}
+ }
 
 
 
