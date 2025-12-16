@@ -23,7 +23,8 @@ body {
   margin: 0 auto;
 }
 
-footer {
+
+.footerIndex {
     text-align: center !important;
 flex-shrink: 0;
 
@@ -32,19 +33,45 @@ margin-bottom:0px;
  align-items: center;
  margin:0pc;
  padding:20px;
-  margin-top: 713px !important;
+  margin-top: 46.5% !important;
   margin-left:500px;
   position: fixed;
+  max-width: 500px;
+
+  
 }
 
 
 .footerContent {
   max-width: 500px;
-  margin: 0 auto;
   display: flex;
-  gap: 80px;
+  gap: 40px;
   align-items: center;
-  padding: 20px 50px;
+  padding: 10px 15px;
+    background-color: #780116;
+}
+.footerShop {
+    text-align: center !important;
+flex-shrink: 0;
+
+margin-bottom:0px;
+  color: #F5F1DC !important;
+ align-items: center;
+ margin:0pc;
+ padding:20px;
+ position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #780116;
+}
+.footerContentShop{
+  max-width: 500px;
+    width: 100%;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  padding: 10px 15px;
     background-color: #780116;
 }
 
@@ -125,6 +152,61 @@ header {
 .wipes img, .cards img{
   width: 80% !important;
 }
+
+.shop{
+    text-align:center !important;
+}
+
+.topShop{
+  text-align:center !important;
+  margin-bottom: 70px;
+
+}
+.topShop a{
+      color:#780116 !important;
+}
+
+.topShop .fa-solid{
+    color:#780116 !important;
+
+}
+.itemRow{
+  display: flex;
+  gap:20px;
+  align-items: stretch;
+  margin-bottom:50px;
+
+}
+.shopItem{
+  text-align: left;
+  padding:10px;
+  width:50%;
+    display: flex;
+  flex-direction: column;
+    box-shadow: -5px -5px 10px #10202277;
+    border-radius: 16px;;
+}
+.shopItem img{
+  width: 200px;
+  height:160px;
+  border-radius: 16px;
+    object-fit: cover;
+
+}
+.shopItem .primary_button{
+   margin-top: auto;
+
+}
+.shopItem p {
+  margin-bottom: -10px;
+  font-size: 16px;
+    line-height: 20px;
+}
+.shopItem .price {
+  margin-bottom: 20px;
+    font-size: 22px !important;
+}
+
 a {
   font-family: "brother-1816", sans-serif;
   font-weight: 400;
@@ -179,6 +261,16 @@ h3 {
   font-weight: 600;
 }
 
+h4 {
+  font-family: "brother-1816";
+  font-style: normal;
+  line-height: 28px;
+  color: #102022 !important;
+  font-weight: 400;
+      font-size: 24px;
+  margin-bottom:0px;
+}
+
 /* Hero banner styling */
 
 
@@ -209,10 +301,4 @@ h3 {
   padding: 10px 25px 10px 25px !important;
   margin-top: 20px;
 }
-
-
-
-
-
-
 
