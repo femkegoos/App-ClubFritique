@@ -27,7 +27,7 @@ body {
 
 .footerBar {
   text-align: center !important;
-    display: flex;
+  display: flex;
   margin-bottom: 0px;
   color: #F5F1DC !important;
   align-items: center;
@@ -49,8 +49,9 @@ body {
   text-align: center !important;
   justify-content: space-between;
 }
-.footerContent a{
-  padding:10px;
+
+.footerContent a {
+  padding: 10px;
 }
 
 
@@ -58,7 +59,7 @@ header {
   background-color: #780116;
   margin: 0px;
   display: flex;
-   justify-content: space-between;
+  justify-content: space-between;
   align-items: center;
   padding: 16px;
   padding-bottom: 20px;
@@ -135,7 +136,7 @@ header {
 
 .shop {
   text-align: center !important;
-   padding: 20px;
+  padding: 20px;
 }
 
 .topShop {
@@ -155,7 +156,7 @@ header {
 }
 
 .itemRow {
-  align-items: stretch;   
+  align-items: stretch;
 
 }
 
@@ -163,8 +164,8 @@ header {
   text-align: left;
   box-shadow: -5px -5px 10px #10202277;
   border-radius: 16px;
-  padding:20px;
-  margin-bottom:30px;
+  padding: 20px;
+  margin-bottom: 30px;
 }
 
 .shopItem img {
@@ -198,9 +199,9 @@ header {
 
 
 .ratingLine {
-   display: flex;
+  display: flex;
   justify-content: space-between;
-  align-items: center; 
+  align-items: center;
 
 }
 
@@ -209,9 +210,10 @@ header {
 }
 
 .stars img {
-    width: 5vw;
+  width: 5vw;
 }
-.stars p{
+
+.stars p {
   text-align: right !important;
   align-items: right !important;
 }
@@ -228,8 +230,9 @@ header {
 
   border-radius: 32px;
   border: 2px solid rgba(120, 1, 22, 0.2);
-  margin-top: 40px !important;;
-    margin:20px;
+  margin-top: 40px !important;
+  ;
+  margin: 20px;
 
 }
 
@@ -365,26 +368,37 @@ h4 {
   padding: 10px 25px 10px 25px !important;
   margin-top: 20px;
 }
+
 @media (min-width: 780px) and (max-width: 1800px) {
-  .disclaimer{
-    padding:40px;
+  .disclaimer {
+    padding: 40px;
     border: solid 3px #780116;
-    margin:60px;
+    margin: 60px;
     border-radius: 30px;
+    text-align: center;
+
   }
-   .disclaimer h1{
+
+  .disclaimer h2 {
     font-size: 40px;
     line-height: 45px;
+    padding-bottom: 30px;;
   }
-  .app{
+
+  .disclaimer img {
+    width: 40%;
+    border-radius: 16px;
+  }
+
+  .app {
     display: none;
+    visibility: hidden !important;
   }
-  footer{
-    display: none;
-  }
+
 }
+
 @media (max-width: 780px) {
-  .disclaimer{
+  .disclaimer {
     display: none;
   }
 
