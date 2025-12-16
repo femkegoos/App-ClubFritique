@@ -1,11 +1,12 @@
-*{
+* {
   box-sizing: border-box;
 
 
 }
 
-html, body {
-   min-height: 100vh;
+html,
+body {
+  min-height: 100vh;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -25,20 +26,31 @@ body {
 
 
 .footerIndex {
-    text-align: center !important;
-flex-shrink: 0;
-
-margin-bottom:0px;
+  text-align: center !important;
+  flex-shrink: 0;
+  margin-bottom: 0px;
   color: #F5F1DC !important;
- align-items: center;
- margin:0pc;
- padding:20px;
+  align-items: center;
+  margin: 0pc;
+  padding: 20px;
   margin-top: 46.5% !important;
-  margin-left:500px;
+  margin-left: 500px;
   position: fixed;
   max-width: 500px;
+}
 
-  
+.footerRating {
+  text-align: center !important;
+  flex-shrink: 0;
+  margin-bottom: 0px;
+  color: #F5F1DC !important;
+  align-items: center;
+  margin: 0pc;
+  padding: 20px;
+  margin-top: 46.5% !important;
+  margin-left: 500px;
+  position: fixed;
+  max-width: 500px;
 }
 
 
@@ -48,163 +60,269 @@ margin-bottom:0px;
   gap: 40px;
   align-items: center;
   padding: 10px 15px;
-    background-color: #780116;
+  background-color: #780116;
 }
-.footerShop {
-    text-align: center !important;
-flex-shrink: 0;
 
-margin-bottom:0px;
+.footerShop {
+  text-align: center !important;
+  flex-shrink: 0;
+  margin-bottom: 0px;
   color: #F5F1DC !important;
- align-items: center;
- margin:0pc;
- padding:20px;
- position: fixed;
+  align-items: center;
+  margin: 0pc;
+  padding: 20px;
+  position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
   background-color: #780116;
 }
-.footerContentShop{
+
+.footerContentShop {
   max-width: 500px;
-    width: 100%;
+  width: 100%;
   display: flex;
   gap: 40px;
   align-items: center;
   padding: 10px 15px;
-    background-color: #780116;
+  background-color: #780116;
 }
 
 
 header {
   background-color: #780116;
   margin: 0px;
- display: flex;
- gap:250px;
- align-items: center;
- padding:16px;
- padding-bottom: 20px;
+  display: flex;
+  gap: 250px;
+  align-items: center;
+  padding: 16px;
+  padding-bottom: 20px;
 
 }
+
 .fa-solid {
   font-size: 32px !important;
-  color:#F5F1DC;
-  padding-top:13px;
+  color: #F5F1DC;
+  padding-top: 13px;
 }
 
-.logo{
+.logo {
   width: 300px;
 
 }
 
-.hero{
-  background-image: linear-gradient(rgba(245, 241, 220,0.4), rgba(245, 241, 220,0.4)), url("../img/Club_Fritique_heerlijke_Snacks.jpg");
-  height: 200px; 
-  background-repeat: no-repeat; 
-   background-size: cover;
-   text-align: center;
-   padding-top: 20px;
+.hero {
+  background-image: linear-gradient(rgba(245, 241, 220, 0.4), rgba(245, 241, 220, 0.4)), url("../img/Club_Fritique_heerlijke_Snacks.jpg");
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 20px;
 }
 
-.textHero{
+.textHero {
   text-align: left !important;
-  padding:20px;
+  padding: 20px;
 }
 
-.merch{
-    padding:20px;
-      margin-bottom:100px;
+.merch {
+  padding: 20px;
+  margin-bottom: 100px;
 }
 
-.shop{
-    padding:20px;
-      margin-bottom:100px;
+.shop {
+  padding: 20px;
+  margin-bottom: 100px;
 }
-.container{
+
+.container {
   text-align: center;
   /* box-shadow: 10px 10px 5px; */
   border-radius: 32px;
   border: 2px solid rgba(120, 1, 22, 0.2);
-  margin-top:20px;
+  margin-top: 20px;
   padding-bottom: 20px;
 }
-.container .stickers{
-  width:250px;
-  height:265px;
+
+.container .stickers {
+  width: 250px;
+  height: 265px;
   object-fit: cover;
 }
 
-.club{
+.club {
   display: flex;
 
 
 }
-.container img{
-  width:70%;
+
+.container img {
+  width: 70%;
   border-radius: 16px;
 
 }
 
-.wipes, .cards{
+.wipes,
+.cards {
   width: 50%;
 }
 
-.wipes img, .cards img{
+.wipes img,
+.cards img {
   width: 80% !important;
 }
 
-.shop{
-    text-align:center !important;
+.shop {
+  text-align: center !important;
 }
 
-.topShop{
-  text-align:center !important;
+.topShop {
+  text-align: center !important;
   margin-bottom: 70px;
 
 }
-.topShop a{
-      color:#780116 !important;
+
+.topShop a {
+  color: #780116 !important;
 }
 
-.topShop .fa-solid{
-    color:#780116 !important;
+.topShop .fa-solid {
+  color: #780116 !important;
 
 }
-.itemRow{
+
+.itemRow {
   display: flex;
-  gap:20px;
+  gap: 20px;
   align-items: stretch;
-  margin-bottom:50px;
+  margin-bottom: 50px;
 
 }
-.shopItem{
+
+.shopItem {
   text-align: left;
-  padding:10px;
-  width:50%;
-    display: flex;
+  padding: 10px;
+  width: 50%;
+  display: flex;
   flex-direction: column;
-    box-shadow: -5px -5px 10px #10202277;
-    border-radius: 16px;;
-}
-.shopItem img{
-  width: 200px;
-  height:160px;
+  box-shadow: -5px -5px 10px #10202277;
   border-radius: 16px;
-    object-fit: cover;
+  ;
+}
+
+.shopItem img {
+  width: 200px;
+  height: 160px;
+  border-radius: 16px;
+  object-fit: cover;
 
 }
-.shopItem .primary_button{
-   margin-top: auto;
+
+.shopItem .primary_button {
+  margin-top: auto;
 
 }
+
 .shopItem p {
   margin-bottom: -10px;
   font-size: 16px;
-    line-height: 20px;
+  line-height: 20px;
 }
+
 .shopItem .price {
   margin-bottom: 20px;
-    font-size: 22px !important;
+  font-size: 22px !important;
+}
+
+.rating h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+.ratingLine5 {
+  display: flex;
+  gap: 25%;
+}
+
+.ratingLine4 {
+  display: flex;
+  gap: 33%;
+}
+
+.ratingLine3 {
+  display: flex;
+  gap: 43%;
+}
+
+.ratingLine2 {
+  display: flex;
+  gap: 64%;
+}
+
+.ratingLine1 {
+  display: flex;
+  gap: 74%;
+}
+
+.stars {
+  display: flex;
+}
+
+.stars img {
+  width: 40px;
+}
+
+.topRating h4 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.topRating {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+
+  border-radius: 32px;
+  border: 2px solid rgba(120, 1, 22, 0.2);
+  margin-top: 40px;
+
+}
+
+.rateComments .description {
+  margin-top: -20px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.rateComments .user {
+  margin-top: -15px;
+  font-size: 15px;
+  line-height: 20px;
+  font-style: italic;
+
+}
+
+.rateComments .stars {
+  width: 30px;
+  margin: -5px !important;
+  margin-top: -15px !important;
+  padding: 0% !important;
+}
+
+.rateComments {
+  margin-bottom: 50px !important;
+}
+
+.crunchOff {
+  border-radius: 16px;
+  border: solid 3px #780116;
+  margin-bottom: 20px;
+
+}
+
+.rateEvent {
+  text-align: center;
+  padding: 20px;
 }
 
 a {
@@ -220,11 +338,12 @@ a {
   transition: 0.3s;
   padding: 8px 8px 8px 32px;
 }
- a:hover {
-    color: #E36414;
-  }
 
-p{
+a:hover {
+  color: #E36414;
+}
+
+p {
   font-family: "brother-1816", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -249,7 +368,7 @@ h2 {
   font-style: normal;
   line-height: 20px;
   color: #102022 !important;
-    font-size: 32px;
+  font-size: 32px;
   font-weight: 400;
 }
 
@@ -267,8 +386,8 @@ h4 {
   line-height: 28px;
   color: #102022 !important;
   font-weight: 400;
-      font-size: 24px;
-  margin-bottom:0px;
+  font-size: 24px;
+  margin-bottom: 0px;
 }
 
 /* Hero banner styling */
@@ -285,7 +404,7 @@ h4 {
   border-radius: 32px;
   padding: 10px 25px 10px 25px !important;
   margin-top: 20px;
- 
+
 }
 
 .secondary_button {
@@ -301,4 +420,3 @@ h4 {
   padding: 10px 25px 10px 25px !important;
   margin-top: 20px;
 }
-
